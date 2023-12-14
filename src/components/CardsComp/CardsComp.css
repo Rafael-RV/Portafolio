@@ -1,0 +1,15 @@
+
+
+/* Estilo para el contenedor principal */
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Estilo para cada tarjeta */
+  .proyecto-card {
+    width: 18rem;
+    margin: 20px;
+  }
+  

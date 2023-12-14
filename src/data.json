@@ -1,0 +1,50 @@
+{
+    "proyectos": [
+      {
+        "nombre": "Proyecto Landing Page",
+        "img": "https://drive.google.com/uc?id=1DviFZ_BnBOb5iVCfFdjba5mm71s7t-s4",
+        "demo": "https://rafael-rv.github.io/landing-de-venta/",
+        "repositorio": "https://github.com/Rafael-RV/landing-de-venta.git"
+        
+      
+      },
+
+      {
+        "nombre": "Proyecto CRUD",
+        "img": "https://drive.google.com/uc?id=1y-TuWvsR6BB2jh2diPvFsnfqWmJs3YAU",
+        "demo": "https://rafael-rv.github.io/Proyecto-CRUD/#",
+        "repositorio": "https://github.com/Rafael-RV/Proyecto-CRUD.git"
+        
+      
+      },
+
+      {
+        "nombre": "Proyecto Tableros de datos (Dashboard)",
+        "img": "https://drive.google.com/uc?id=1O4BHZI4lNt6dYIRYcb-F0wyyQLza3cO4",
+        "demo": "https://rafael-rv.github.io/Proyecto-Dashboard/",
+        "repositorio": "https://github.com/Rafael-RV/Proyecto-Dashboard.git"
+        
+      
+      },
+
+      {
+        "nombre": "Proyecto Restaurant-App",
+        "img": "https://drive.google.com/uc?id=11x5jRBWD03_F4RyUeJWYxdJDUonSnfjH",
+        "demo": "https://rafael-rv.github.io/react-restaurant/",
+        "repositorio": "https://github.com/Rafael-RV/react-restaurant.git"
+        
+      
+      },
+
+      {
+        "nombre": "Proyecto App Ecommerce",
+        "img": "https://drive.google.com/uc?id=10OZKICgSVjw0FQuOYfVtRPjfI9gQPEa1",
+        "demo": "https://rafael-rv.github.io/PROYECTO-ECOMMERCE-ClasicsShoes/",
+        "repositorio": "https://github.com/Rafael-RV/PROYECTO-ECOMMERCE-ClasicsShoes.git"
+        
+      }
+      
+      
+    ]
+  }
+  

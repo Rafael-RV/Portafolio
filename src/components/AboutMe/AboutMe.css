@@ -1,0 +1,10 @@
+.aboutme {
+    height: 40vh;
+    background-color: #DAD3A9;
+}
+
+.description {
+    color: black;
+    display: grid;
+    grid-template-columns: 50%, 50%;
+}
