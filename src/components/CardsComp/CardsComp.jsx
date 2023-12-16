@@ -6,22 +6,32 @@ import '../CardsComp/CardsComp.css';
 
 function CardsComp() {
   return (
-    <div className="proyectos-container">
-      {proyectosData.proyectos.map((proyecto, index) => (
-        <Card key={index} className="proyecto-card">
-          <Card.Img variant="top" src={proyecto.img} alt={proyecto.nombre} />
-          <Card.Body>
-            <Card.Title>{proyecto.nombre}</Card.Title>
-            <Card.Text>{/* Agrega el contenido del texto si es necesario */}</Card.Text>
-            <Button variant="primary" href={proyecto.demo} target="_blank">
-              Ver Demo
-            </Button>
-            <Button variant="secondary" href={proyecto.repositorio} target="_blank" style={{ marginLeft: '10px' }}>
-              Ver Repositorio
-            </Button>
-          </Card.Body>
-        </Card>
-      ))}
+    <div>
+      <h2 className='projects'>Proyectos</h2>
+      <div className="proyectos-container">
+        {proyectosData.proyectos.map((proyecto, index) => (
+          <Card key={index} className="proyecto-card">
+            <div className="card-content">
+              <Card.Img variant="top" src={proyecto.img} alt={proyecto.nombre} />
+            </div>
+            <Card.Body>
+              <Card.Title>{proyecto.nombre}</Card.Title>
+              
+              <Button  href={proyecto.demo} target="_blank">
+                Ver Demo
+              </Button>
+              <a   href={proyecto.repositorio} target="_blank" style={{ marginLeft: '10px' }}>
+              <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href={proyecto.credencial} target="blank">
+                <img src={proyecto.certificacion} alt={proyecto.nombre}/>
+              </a>
+              
+             
+            </Card.Body>
+          </Card>
+        ))}
+      </div>
     </div>
   );
 }
