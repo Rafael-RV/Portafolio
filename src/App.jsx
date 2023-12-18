@@ -1,19 +1,15 @@
-import AboutMe from "./components/AboutMe/AboutMe"
-import CardsComp from "./components/CardsComp/cardsComp"
-import MyNavbar from "./components/NavbarComp/Navbar"
-import Footer from "./components/Footer/Footer"
-import '../src/App.css'
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./routes/HomePage";
+
 
 
 const App = () => {
   return (
-    <div>
-      <MyNavbar/>
-      <AboutMe/>
-      <CardsComp/>
-      <Footer/>
-      
-    </div>
+    <>
+     <Routes>
+      <Route path="/mi-portafolio-rr" element={<HomePage/>} />
+     </Routes>
+    </>
   )
 }
 

@@ -1,0 +1,20 @@
+
+.credencial{
+  width: 60%;
+}
+
+
+ion-icon{
+  width: 20%;
+}
+
+.img-fluid {
+  max-width: 100%; /* Cambia el valor según tus necesidades */
+  height: auto; /* Esto asegura que la altura se ajuste proporcionalmente */
+  object-fit: cover;
+}
+
+.card-icon{
+  width: 40%;
+}
+
